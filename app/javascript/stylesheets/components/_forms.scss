@@ -3,12 +3,11 @@
   @apply appearance-none shadow-lg block w-full text-gray-700 rounded-lg focus:outline-none focus:ring-4 focus:ring-indigo-600 focus:ring-inset;
   padding-top: 1rem;
   padding-bottom: .65rem;
-  @apply px-5;
+  @apply px-5 flex flex-col mb-4;
   
 }
 
 .input-group {
-  
   
   
 }
