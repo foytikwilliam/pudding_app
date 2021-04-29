@@ -1,7 +1,8 @@
 .btn {
   @apply font-normal text-base rounded cursor-pointer border border-none appearance-none inline-block select-none leading-normal antialiased align-baseline;
-
-  padding: 0.35rem 0.75rem;
+  
+  @apply p-20 mt-10;
+  
   transition: 0.15s ease;
 
   &.btn-sm {
