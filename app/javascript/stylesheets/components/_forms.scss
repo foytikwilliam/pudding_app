@@ -1,6 +1,6 @@
 .input {
   
-  @apply appearance-none block w-full text-gray-700 border border-gray-400 rounded px-3 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-inset;
+  @apply appearance-none shadow-lg block w-full text-gray-700 rounded-lg px-3 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-inset;
   
   padding-top: .65rem;
   padding-bottom: .65rem;
