@@ -1,9 +1,9 @@
 .input {
   
-  @apply appearance-none shadow-lg block w-full text-gray-700 rounded-lg py-20 lg:py-3 focus:outline-none focus:ring-4 focus:ring-indigo-600 focus:ring-inset;
-  @apply px-5;
-  padding-top: .65rem;
+  @apply appearance-none shadow-lg block w-full text-gray-700 rounded-lg focus:outline-none focus:ring-4 focus:ring-indigo-600 focus:ring-inset;
+  padding-top: 1rem;
   padding-bottom: .65rem;
+  @apply px-5;
   
 }
 
@@ -22,3 +22,8 @@ p.error {
   
 }
  
+.placeholder {
+  
+  @apply text-2xl;
+  
+}
