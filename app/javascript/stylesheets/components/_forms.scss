@@ -1,7 +1,7 @@
 .input {
   
-  @apply appearance-none shadow-lg block w-full text-gray-700 rounded-2xl lg:rounded-lg focus:outline-none focus:ring-4 focus:ring-indigo-600 focus:ring-inset;
-  @apply p-16 text-7xl;
+  @apply appearance-none shadow-lg block w-full text-gray-700 rounded-3xl lg:rounded-lg focus:outline-none focus:ring-4 focus:ring-indigo-600 focus:ring-inset;
+  @apply p-5 text-7xl;
   @apply px-5 flex flex-col mb-9;
   
   
@@ -10,10 +10,11 @@
 
 .input-group {
   
-  
+  @apply p-10 text-4xl;
+
 }
 input#user_password.invalid {
-  @apply border border-red-400;
+  @apply border-4 border-red-400;
 }
 
 p.error {
@@ -24,6 +25,13 @@ p.error {
 
 .label {
   
-  
+
   
 }
+
+a {
+  
+  @apply text-4xl;
+  
+}
+  

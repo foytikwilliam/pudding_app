@@ -1,7 +1,7 @@
 .btn {
   @apply font-normal text-base rounded cursor-pointer border border-none appearance-none inline-block select-none leading-normal antialiased align-baseline;
   
-  @apply p-20 mt-10;
+  @apply p-20 mt-5;
   
   transition: 0.15s ease;
 
@@ -31,7 +31,7 @@
 }
 
 .btn-default {
-  @apply block w-full bg-indigo-500 border border-gray-400 text-white font-bold mt-5;
+  @apply block w-full bg-indigo-500 border border-gray-400 text-white text-7xl rounded-xl font-bold mt-5;
   
   &:hover,
   &:focus {
